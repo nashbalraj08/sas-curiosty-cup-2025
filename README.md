@@ -16,6 +16,7 @@ The primary objective is to **analyze the effectiveness of gamification in onlin
 - **Difficulty Level**: No significant correlation was found between course difficulty (Beginner, Intermediate, Advanced) and ratings.
 - **Course Providers**: **Tech companies (e.g., Google, IBM)** generally receive higher ratings compared to university courses.
 - **Skills & Ratings**: Courses on **Python, Machine Learning, and Data Analysis** tend to score higher.
+- **Predictive Modelling**: Given the results, the **6-leaf pruned tree** is the most appropriate model, as it balances predictive accuracy, interpretability, and generalization while avoiding excessive complexity and overfitting.
 
 ## 🛠 Methodology
 1. **Data Collection & Cleaning**
@@ -29,23 +30,12 @@ The primary objective is to **analyze the effectiveness of gamification in onlin
    - Generated correlation matrices and visualizations.
    - Analyzed the impact of **course duration, difficulty level, and provider type** on ratings.
 4. **Modeling & Predictions**
-   - Used **Random Forest, Regression Trees, and Support Vector Machines (SVM)** to predict course ratings based on features like **course difficulty, provider type, and enrollment numbers**.
+   - Used **Regression Trees(pruned and unpruned)** to predict course ratings based on features like **course difficulty, provider type, and enrollment numbers**.
 
 ## 📂 How to View the Project
-- **Jupyter Notebooks**: Contains SAS code for data processing and analysis.
-- **Reports & Visualizations**: Summary statistics, charts, and findings.
-- **Final Paper**: A structured document with all methodologies, results, and discussions.
-
-## 🚀 Why This Matters
-This study provides valuable insights for **educators, online learning platforms, and course designers** to optimize engagement and learning experiences using **gamification techniques**. By understanding what drives higher ratings and engagement, platforms can **enhance student motivation and learning outcomes**.
-
-## 📬 Contact & Contributions
-We welcome feedback and contributions! Feel free to **open issues or pull requests** if you have suggestions or improvements.
-
-📧 **Contact:** [Your Email]  
-🌐 **Website:** [Your Website (Optional)]  
-📄 **Curiosity Cup Submission:** [Link to Final Paper]
+- **SAS OnDemand for Academics**: Open **"EDA program.sas"** in SAS to view the applying Methodology section.
+- **Final Paper**: A structured document with all methodologies, results, and discussions can be found in the **"Curiosity Cup 2025 Gamification in Education"**
 
 ---
 
-🔖 *"With the rapidly changing demands of the labor market, micro-credentials and gamification in education are transforming the learning landscape."*
+
