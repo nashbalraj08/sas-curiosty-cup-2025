@@ -2,10 +2,10 @@
 options validvarname=v7;
 
 /* Create a library named 'proj' */
-LIBNAME proj "/home/u63781031/Curiosity Cup 2025";
+LIBNAME proj "/Curiosity Cup 2025";
 
 /* Import CSV and store it in the 'proj' library */
-PROC IMPORT DATAFILE="/home/u63781031/Curiosity Cup 2025/coursera_courses.xlsx" 
+PROC IMPORT DATAFILE="/Curiosity Cup 2025/coursera_courses.xlsx" 
 		OUT=proj.coursera_data DBMS=xlsx REPLACE;
 	GETNAMES=YES;
 RUN;
